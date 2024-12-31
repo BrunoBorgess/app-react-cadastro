@@ -1,51 +1,22 @@
-# Welcome to your Expo app 👋
+Este projeto é um aplicativo de cadastro desenvolvido com React Native, utilizando o framework Expo para simplificar o processo de desenvolvimento. Ele foi construído com TypeScript, proporcionando maior segurança e previsibilidade ao código. Além disso, o projeto utiliza o Clerk para gerenciar as rotas, autenticação de usuários e validações de dados de forma segura e eficiente.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Tecnologias Utilizadas
+React Native: Para criar uma interface de usuário nativa e responsiva.
+Expo: Para facilitar o processo de desenvolvimento, build e deploy do aplicativo.
+TypeScript: Para adicionar tipagem estática e melhorar a qualidade do código.
+Clerk: Para gerenciamento de autenticação, autorização de usuários e validação de dados.
+Funcionalidades Implementadas
+Cadastro de Usuários:
+Permite que os usuários criem contas no aplicativo, armazenando de forma segura seus dados.
 
-## Get started
+Autenticação de Usuários:
+Utiliza o Clerk para oferecer suporte completo ao login, registro e recuperação de senha.
 
-1. Install dependencies
+Rotas Protegidas:
+As páginas são organizadas de forma que o acesso às rotas protegidas seja permitido apenas para usuários autenticados.
 
-   ```bash
-   npm install
-   ```
+Validação de Dados:
+As entradas dos usuários são validadas para garantir consistência e integridade.
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# app-react-cadastro
