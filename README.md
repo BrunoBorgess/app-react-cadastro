@@ -20,3 +20,7 @@ As entradas dos usuários são validadas para garantir consistência e integrida
 
 
 
+
+
+https://github.com/user-attachments/assets/5f225a54-2354-42c8-aada-9e91271d6243
+
